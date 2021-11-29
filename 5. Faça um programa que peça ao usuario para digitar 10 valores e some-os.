@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+int main()
+{
+    int  n1,n2,n3,n4,n5,n6,n7,n8,n9,n10;
+     int soma;
+     soma = n1 + n2 + n3 + n4 + n5 + n6 + n7 + n8 + n9 + n10;
+    printf("Digite um número: ");
+    scanf("%i", & n1);
+     
+    printf("Digite um número: ");
+    scanf("%i", &n2);
+    
+    printf("Digite um número: ");
+    scanf("%i", & n3);
+    
+    printf("Digite um número: ");
+    scanf("%i", & n4);
+    
+    printf("Digite um número: ");
+    scanf("%i", & n5);
+    
+    printf("Digite um número: ");
+    scanf("%i", & n6);
+    
+    printf("Digite um número: ");
+    scanf("%i", & n7);
+    
+    printf("Digite um número: ");
+    scanf("%i", & n8);
+    
+    printf("Digite um número: ");
+    scanf("%i", & n9);
+    
+    printf("Digite um número: ");
+    scanf("%i", & n10);
+    
+    soma = n1 + n2 + n3 + n4 + n5 + n6 + n7 + n8 + n9 + n10;
+    printf("o resultado foi: %i ", soma);
+    return 0;
+}
